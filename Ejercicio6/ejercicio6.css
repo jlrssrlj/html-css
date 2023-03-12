@@ -1,0 +1,26 @@
+
+.boton {
+    height: 20px;
+    width: 200px;
+    
+  }
+.boton:hover{
+    background-color: green;
+    color: white;
+}
+span.texto::after{
+    content: 'pasa por encima';
+    visibility: hidden;
+    content: "";    
+    text-indent: 0;
+       
+}
+.boton.oculto::after{
+    visibility: hidden;
+    
+}
+
+.boton:active::after{
+    
+    content: 'Hecho';
+}
